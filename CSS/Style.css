@@ -1,0 +1,263 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    width: 1360px;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+.header{
+    font-size: 30px;
+    color: white;
+}
+.header a:hover{
+    color: #007bff;
+}
+.Menu {
+  align-items: center; 
+    margin-right: 23px;
+}
+.Menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap; 
+}
+
+.Menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.Menu ul li {
+    margin-right: 20px;
+}
+
+.Menu li a {
+    font-size: 16px;
+    font-weight: 600;
+}
+.Menu li a:hover{
+    color: #fdba01;
+    text-decoration: underline;
+}
+.Menu li{
+    position: relative;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    padding: 10px;
+}
+
+.sub-menu ul {
+    list-style-type: none;
+}
+
+.sub-menu ul li {
+    margin-bottom: 5px;
+}
+
+.sub-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.heading {
+   background-color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.heading img{
+    width: 100%;
+}
+
+.heading .strategy h3 {
+    color: #f5f0f0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.Business h2{
+    color: #f9f4f4;
+    margin-bottom: 10px;  
+    margin-left: 10px;
+}
+
+.Business p {
+    color: #faf6f6;
+    margin-left: 10px;
+}
+.Planning h3{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+.Management h4{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+.Management p{
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+}
+.button{
+   
+   
+   
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+.button a{
+    background-color: blue;
+    color: white; 
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 7rem;
+}
+.heading span {
+    display: block;
+    margin-bottom: 5px;
+    color: #f8f4f4;
+    margin-left: 10px;
+}
+.heading span:hover{
+    color: #007bff;
+}
+.Transforms{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.Transforms img{
+    width: 100%;
+}
+.content{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-top: -24px;
+    padding: 50px;
+    margin-left: 10px;
+}
+ .HR-IBA h2{
+    color: #f8f1f1;
+    margin-bottom: 10px;
+    margin-left: 10px;  
+}
+ .HR-IBA p{
+    color: #fffcfceb;
+    margin-bottom: 10px; 
+    margin-left: 10px; 
+}
+ .IBA h3{
+    color: #f8f2f2;
+    margin-bottom: 10px;
+    margin-left: 10px; 
+}
+ .IBA span{
+    display: block; 
+    margin-right: 10px; 
+    color: #f9f8f8;
+    margin-left: 10px;
+}
+.IBA span:hover{
+    color: #007bff;
+}
+.button {
+    margin-top: 20px;
+}
+
+
+.Transforms .button a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 40rem;
+}
+
+.IT-support{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: black;
+    margin-left: 10px;
+}
+.IT-support img{
+    width: 100%;
+}
+.offer h2{
+    color: #f8f1f1;
+    margin-bottom: 10px; 
+    margin-left: 10px;
+}
+.offer p{
+    color: #f9f8f8;
+    margin-bottom: 10px;  
+    margin-left: 10px;
+}
+.offer span{
+    display: block; 
+    margin-right: 10px; 
+    color: #fffafa;  
+    margin-left: 10px;
+}
+.offer span:hover{
+    color: #007bff;
+}
+.button {
+    margin-top: 20px;
+}
+
+
+.button a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 7rem;
+}
